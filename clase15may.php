@@ -27,7 +27,7 @@ abstract class Embarcaciones {
     }
 }
 
-$embarcaciones = new Embarcaciones (65, 10); 
+//$embarcaciones = new Embarcaciones (65, 10);  cxuando es una clase abstracta no se puede utiliza, debdio a que el proposito es proporcionar una base sobre la cual otras clases pueden extenderse, 
 
 
 class Tiburonera extends Embarcaciones{
