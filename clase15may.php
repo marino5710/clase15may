@@ -50,7 +50,7 @@ class Tiburonera extends Embarcaciones{
 
 $tiburonera75 = new Tiburonera(27,6); 
 $tiburonera75->getInfo();
-echo "/n"; 
+
 
 class Lancharapida extends Embarcaciones {
     public function getInfo(): void
